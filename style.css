@@ -25,56 +25,79 @@ header {
     height: 32px;
 }
 
+.main {
+    height: 636px;
+}
+
 h1 {
     color: #ae7c78;
     font-size: 44px;
     font-family: Playfair Display;
     font-weight: 400;
-}
-
-.in_spb {
-    color: #ae7c78;
-    font-size: 44px;
-    font-family: Playfair Display;
-    font-style: italic;
+    margin-bottom: 24px;
+    margin-top: 81px;
 }
 
 .main_wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 0 120px;
 }
 
 .main_card {
-    height: 150px;
-    width: 350px;
+    width: 390px;
+    margin-right: 23px;
 }
 
 .main_text {
-    width: 384px;
-    height: 58px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
     color: #ae7c78;
+    margin: 0;
 }
 
-.main_image {
+.main_image_1 {
     width: 386px;
     height: 404px;
+    margin: 140px 20px 23px 0px;
+}
+
+.main_image_2 {
+    width: 387px;
+    height: 400px;
+    margin: 82px 0 20px 0;
 }
 
 .btn {
+    margin-top: 64px;
     width: 285px;
     height: 80px;
-    left: 120px;
     background: #d89999;
     border-radius: 40px;
+    border-style: none;
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
     color: #ffffff;
+}
+
+.features {
+    height: 108px;
+    margin: 48px 120px 80px 120px;
+}
+
+.feat_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.feat_block {
+    display: flex;
+}
+
+.feat_descr {
+    width: 285px;
+    height: 40px;
 }
