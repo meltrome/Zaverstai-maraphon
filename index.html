@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" class="page">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <title>Botanika</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title>"Botanika" | цветы в Петербурге</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+
+
     </head>
 
     <body class="page-body">
@@ -33,72 +35,167 @@
                 </nav>
             </div>
             </header>
-            
-            <section>
-                <div class="main_wrapper">
-                    <div class="main_card">
-                        <h1>Авторские букеты <i>в Петербурге</i> </h1>
-                        <p class="main_text">Оригинальные свежие букеты с доставкой по всему городу</p>
-                        <button class="btn">Смотреть каталог</button>
-                    </div>
-                    <div class="main_image_1">
-                        <img src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.jpg" alt="букет"  />
-                    </div>
-                    <div class="main_image_2">
-                        <img src="img/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.jpg" alt="букет"  />
-                    </div>
+            <main class="container">
+            <section class="about-us">
+                <div class="about-us-content">
+                    <h1 class="main-title">Авторские букеты <span>в Петербурге</span></h1>
+                    <p class="main-lead">Оригинальные свежие букеты с доставкой по всему городу</p>
+                    <a href="#" class="button">Смотреть каталог</a>
+                </div>
+                <div class="about-us-gallery">
+                    <img src="img/about-us-1.jpg" width="386" height="404" alt="Букет розовых тюльпанов>" />
+                    <img src="img/about-us-2.jpg" width="387" height="420" alt="Белые эустомы, розовые гвоздики и розы, оформленные эвкалиптом в бумажной упаковке."  />
                 </div>
             </section>
 
         <section class="features">
-            <div class="feat_wrapper">
-                <div class="feat_block">
-                    <img src="img/icons/car.png" alt="car" />
-                    <div class="feat_descr">
-                        <div class="feat_subtitle"><b>Быстрая доставка</b></div>
-                        <div class="feat_text">Можем собрать букет и передать его в доставку всего за час</div>
-                    </div>
-                </div>
+            <h2 class="section-title visually-hidden">Наши особенности</h2>
+            <ul class="features-list">
+                <li class="features-item features-delivery">
+                    <h3 class="features-title">Быстрая доставка</h3>
+                    <p class="features-text">Можем собрать букет и передать его в доставку всего за час</p>
+                </li>
+                <li class="features-item features-quality">
+                    <h3 class="features-title">Всегда свежие цветы</h3>
+                    <p class="features-text">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
+                </li>
+                <li li class="features-item features-photo">
+                    <h3 class="features-title">Отправляем фото цветов</h3>
+                    <p class="features-text">Перед доставкой сделаем фотографию букета и отправим вам.</p>
+                </li>
+            </ul>            
+        </section>
 
-                <div class="feat_block">
-                        <img src="img/icons/bouquet.png" alt="" />
-                    <div class="feat_descr">
-                        <div class="feat_subtitle"><b >Всегда свежие цветы</b></div>
-                        <div class="feat_text">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</div>
-                    </div>
-                </div>
-
-                <div class="feat_block">
-                        <img src="img/icons/camera.png" alt="camera" />
-                    <div class="feat_descr">
-                        <div class="feat_subtitle"><b >Отправляем фото цветов</b></div>
-                        <div class="feat_text">Перед доставкой сделаем фотографию букета и отправим вам.</div>
-                    </div>
+        <section class="popular-products">
+            <h2 class="section-title">Популярные букеты</h2>
+            <div class="slider">
+                <table class="catalog">
+                    <thead class="visually-hidden">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col">Размер</th>
+                            <th scope="col">Цена</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="catalog-item">
+                            <th scope="row" class="catalog-name">Букет "Нежность"</th>
+                            <td class="catalog-description">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</td>
+                            <td class="catalog-dimensions">30 х 40 см</td>
+                            <td class="catalog-price">3600 руб.</td>
+                            <td class="catalog-img">
+                                <img src="/img/tenderness-bouquet.jpg" width="387" height="438" alt="Букет из белых эустом и кремовых роз в бумажной упаковке.">
+                            </td>
+                            <td class="catalog-cta">
+                                <a href="#" class="button">Заказать</a>
+                            </td>
+                        </tr>
+                        <tr class="catalog-item hidden">
+                            <th scope="row" class="catalog-name">Букет «Сиреневая ночь»</th>
+                            <td class="catalog-description">Классический букет из ирисов подойдет в качестве подарка преподавателю.</td>
+                            <td class="catalog-dimensions">30 × 35 см</td>
+                            <td class="catalog-price">1240 руб.</td>
+                            <td class="catalog-img">
+                                <img src="img/lilac-night-bouquet.jpg" width="387" height="438" alt="Букет из ирисов и фиолетовых эустом в розовой бумажной упаковке.">
+                            </td>
+                            <td class="catalog-cta">
+                                <a href="#" class="button">Заказать</a>
+                            </td>
+                        </tr>
+                        <tr class="catalog-item hidden">
+                            <th scope="row" class="catalog-name">Букет «Мокко»</th>
+                            <td class="catalog-description">Стильный букет из прекрасных роз Капучино с красными розами и эвкалиптом.</td>
+                            <td class="catalog-dimensions">30 × 30 см</td>
+                            <td class="catalog-price">3350 руб.</td>
+                            <td class="catalog-img">
+                                <img src="img/mocha-bouquet.jpg" width="387" height="438" alt="Букет из красных и розовых роз в сочетании с эвкалиптом в бумажной упаковке.">
+                            </td>
+                            <td class="catalog-cta">
+                                <a href="#" class="button">Заказать</a>
+                            </td>
+                        </tr>
+                        <tr class="catalog-item hidden">
+                            <th scope="row" class="catalog-name">Букет «55 красных роз»</th>
+                            <td class="catalog-description">Сколько эмоций, чувств, ощущений и желаний может подарить этот букет!</td>
+                            <td class="catalog-dimensions">50 × 40 см</td>
+                            <td class="catalog-price">10945 руб.</td>
+                            <td class="catalog-img">
+                                <img src="img/55-red-roses-bouquet.jpg" width="387" height="438" alt="Букет из 55 красных роз, перевязанных красной лентой.">
+                            </td>
+                            <td class="catalog-cta">
+                                <a href="#" class="button">Заказать</a>
+                            </td>
+                        </tr>
+                        <tr class="catalog-item hidden">
+                            <th scope="row" class="catalog-name">Воздушный шар «Хром»</th>
+                            <td class="catalog-description">Хромированный латексный шар. Очень красивый и необычный.</td>
+                            <td class="catalog-dimensions">40 × 55 см</td>
+                            <td class="catalog-price">190 руб.</td>
+                            <td class="catalog-img">
+                                <img src="img/balloons-bouquet.jpg" width="387" height="438" alt="Букет из 55 красных роз, перевязанных красной лентой.">
+                            </td>
+                            <td class="catalog-cta">
+                                <a href="#" class="button">Заказать</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="slider-controls">
+                    <button type="button" class="slider-button slider-button-prev">
+                        <span class="visually-hidden">Предыдущий товар</span>
+                    </button>
+                    <button type="button" class="slider-button slider-button-next">
+                        <span class="visually-hidden">Следующий товар</span>
+                    </button>
                 </div>
             </div>
         </section>
 
-        <section class="popular">
-            <div class="container">
-                <h2>Популярные букеты</h2>
-                <div class="pop_card">
-                    <div class="pop_descr">
-                        <p class="pop_subtitle">Букет «Нежность»</p>
-                        <p class="pop_text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
-                        <p class="pop_measurments">30 × 40 см</p>
-                        <p class="pop_price">3600 руб.</p>
-                        <button class="btn">Заказать</button>
-                    </div>
-                    <div class="pop_image">
-                        <img src="/img/imgbin_flower-bouquet-cut-flowers-floral-design-garden-roses-png 1.jpg" alt="букет" />
-                    </div>
-                </div>
-                <button class="arrow_prev"><img src="img/Arrow 2.png" alt="стрелка"></button>
-                <button class="arrow_next"><img src="img/Arrow 1.png" alt="стрелка"></button>          
-            </div>
+        <section class="product-categories">
+            <h2 class="section-title visually-hidden">Каталог</h2>
+            <ul class="product-categories-list">
+                <li class="product-categories-item">
+                    <a href="#" class="product-categories-link">
+                        <div class="product-categories-desc">
+                            <h3 class="product-categories-name">Свадебные букеты</h3>
+                            <p class="product-categories-text">Букеты для невест</p>
+                        </div>
+                        <img src="img/wedding_bouquets.jpg" class="product-categories-img"
+                        width="387"
+                        height="442"
+                        alt="Небольшой букет невесты из розовых пионов, пионовидных роз и белоснежных бегоний, повязанный розовой лентой." >
+                    </a>
+                </li>
+                <li class="product-categories-item">
+                    <a href="#" class="product-categories-link">
+                        <div class="product-categories-desc">
+                            <h3 class="product-categories-name">Букеты с пионами</h3>
+                            <p class="product-categories-text">Букеты с сезонными пионами</p>
+                        </div>
+                        <img src="img/bouquets_with_peonies.jpg" class="product-categories-img"
+                        width="387"
+                        height="442"
+                        alt="Розовые пионы в бежевой керамической вазе." >
+                    </a>
+                </li>
+                <li class="product-categories-item">
+                    <a href="#" class="product-categories-link">
+                        <div class="product-categories-desc">
+                            <h3 class="product-categories-name">Выбрать букет</h3>
+                            <p class="product-categories-text">Букеты в ассортименте</p>
+                        </div>
+                        <img src="img/assorted_bouquets.jpg" class="product-categories-img"
+                        width="387"
+                        height="442"
+                        alt="Букет из тысячелистников Терракота и Лимониума розового." >
+                    </a>
+                </li>
+            </ul>
         </section>
-
-        <section class="catalog">
+        <!-- <section class="catalog">
             <div class="catalog_wrapper">
                 <div class="catalog_item">
                     <a href="#"><div class="catalog_descr">
@@ -120,7 +217,7 @@
                     </a>              
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="sale">
             <div class="sale_wrapper">
@@ -220,7 +317,7 @@
                 </div>
             
         </section>
-
+        </main>
         <footer>
             <nav>
                 <div class="container">
@@ -246,6 +343,6 @@
                 </div>
             </nav>
         </footer>
-
+        <script src="js/script.min.js"></script>
     </body>
 </html>
